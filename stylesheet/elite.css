@@ -81,6 +81,14 @@ body {
   flex-direction: column;
 }
 
+.proizvod a:last-child:hover {
+  background: #c4191d;
+}
+
+.proizvod img:hover {
+  opacity: 0.85;
+}
+
 .proizvod :first-child {
   text-decoration: none;
 }
@@ -124,6 +132,7 @@ body {
 
 main {
   padding-left: 20px;
+  padding-right: 20px;
 }
 
 .main {
@@ -133,6 +142,18 @@ main {
 
 .informacije {
   flex: 1;
+}
+
+.warpper-img img {
+  width: 350px;
+  padding-top: 20px;
+  padding-right: 20px;
+}
+
+.warpper-img p {
+  padding-top: 6px;
+  font-size: 14px;
+  text-align: center;
 }
 
 .informacije h2 {
@@ -184,13 +205,21 @@ form label {
   flex: 1;
 }
 
+.border {
+  border-bottom: 1px solid #c2c2c2;
+}
+
 button {
   padding: 12px 20px;
   margin: 5px 0px;
-  background: red;
+  background: #ed2328;
   border: 1px solid rgba(0, 0, 0, 0.16);
   font-size: 16px;
   color: white;
+}
+
+button:hover {
+  background: #c4191d;
 }
 
 .informacije > * {
@@ -199,6 +228,7 @@ button {
 
 .informacije p:last-child {
   color: red;
+  padding-top: 16px;
 }
 
 .informacije ul {
