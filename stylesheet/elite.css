@@ -1,0 +1,258 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+a {
+  color: red;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: #454545;
+  background: #f8f8f8;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1440px;
+  padding: 10px 0;
+}
+
+.nav-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  border-bottom: 1px solid #c2c2c2;
+  overflow: hidden;
+}
+
+.nav-header img {
+  padding-top: 0px;
+  width: 260px;
+  padding-left: 10px;
+}
+
+.nav-header p a {
+  font-size: 12px;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.nav-header p {
+  margin-bottom: 5px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.nav-header p a:hover {
+  color: red;
+}
+
+.main-container {
+  display: flex;
+}
+
+.main-container .aside {
+  min-width: 200px;
+  width: 250px;
+}
+
+.main-container .main {
+  flex: 1;
+}
+
+.proizvodi {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.proizvodi img {
+  max-width: 100%;
+}
+
+.proizvodi > div:nth-child(n + 2) {
+  padding-left: 20px;
+}
+
+.proizvod {
+  display: flex;
+  flex-direction: column;
+}
+
+.proizvod :first-child {
+  text-decoration: none;
+}
+
+.proizvod h2 {
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 22px;
+  color: #2e2e2e;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: lighter;
+}
+
+.cijena {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: lighter;
+  font-size: 22px;
+  color: #ed2328;
+}
+
+.proizvod a:last-child {
+  text-decoration: none;
+  margin-top: 10px;
+  padding: 12px 20px;
+  color: white;
+  background: #ed2328;
+  text-align: center;
+  border: 1 solid;
+  -webkit-font-smoothing: antialiased;
+}
+
+.main-content {
+  display: flex;
+}
+
+.obavijest {
+  background: #f4ecec;
+  padding: 20px;
+  margin: 10px 0px;
+  border-radius: 8px;
+}
+
+main {
+  padding-left: 20px;
+}
+
+.main {
+  max-width: 100%;
+  flex: 10;
+}
+
+.informacije {
+  flex: 1;
+}
+
+.informacije h2 {
+  font-size: 48px;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: lighter;
+  color: #2e2e2e;
+}
+
+aside ul {
+  margin: 0 0 65px 0;
+  padding: 8px;
+}
+
+aside ul li {
+  list-style-type: none;
+  font-size: 17px;
+  font-weight: lighter;
+  font-family: "Open Sans", Arial, sans-serif;
+  border-bottom: 1px solid #c2c2c2;
+  padding: 7px;
+  margin: 0;
+}
+
+aside ul li:hover {
+  border-bottom: 1px solid #000;
+}
+
+aside ul li a {
+  text-decoration: none;
+  color: #000;
+}
+
+aside ul li a:hover {
+  text-decoration: none;
+  color: #ed2328;
+}
+
+.opcija-naziv {
+}
+form label {
+  padding: 10px 0px;
+  display: flex;
+  justify-content: left;
+}
+
+.inline-block span {
+  padding-left: 50px;
+  flex: 1;
+}
+
+button {
+  padding: 12px 20px;
+  margin: 5px 0px;
+  background: red;
+  border: 1px solid rgba(0, 0, 0, 0.16);
+  font-size: 16px;
+  color: white;
+}
+
+.informacije > * {
+  margin: 10px 20px;
+}
+
+.informacije p:last-child {
+  color: red;
+}
+
+.informacije ul {
+  padding-left: 20px;
+}
+
+footer {
+  padding-top: 30px;
+
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  color: #454545;
+}
+
+footer > * {
+  padding-left: 10px;
+}
+
+.info-footer {
+  display: flex;
+  width: 300px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+footer div:nth-child(2),
+footer p:nth-child(5) {
+  margin-top: 20px;
+}
+
+footer p:nth-child(n + 5) a {
+  color: #ed2328;
+  text-decoration: none;
+}
+
+footer p:nth-child(n + 5) a:hover {
+  text-decoration: underline;
+}
+
+.footer-background {
+  background: #f4ecec;
+  color: #454545;
+  border-top: 1px solid #c2c2c2;
+}
+
+.para-container {
+  padding-top: 18px;
+  text-align: left;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.para-container a {
+  text-decoration: none;
+  text-align: left;
+}
